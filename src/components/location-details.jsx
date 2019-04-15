@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const LocationDetails = props => (
   <h1 className="Location-details">
-    {props.city}, 
+    {props.city},
     {props.country}
   </h1>
 );
